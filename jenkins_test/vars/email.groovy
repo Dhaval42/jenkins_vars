@@ -18,4 +18,5 @@ def notifystatus(email){
 	 	<p> Check console Output at:<a href=${env.BUILD_URL}>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>""", 
             recipientProviders: [buildUser()]
 	)
+}	
 
