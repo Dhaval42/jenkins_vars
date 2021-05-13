@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def notifystarted(email){
 	echo "${email}- first mail"
     emailext (
